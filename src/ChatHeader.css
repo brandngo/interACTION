@@ -1,0 +1,19 @@
+.chatHeader {
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    padding: 10px;
+    align-items: center;
+}
+
+.chatHeader__hash {
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.chatHeader__left > h3 {
+    display: flex;
+    align-items: center;
+    color: white;
+}
