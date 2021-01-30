@@ -19,7 +19,7 @@
     border-radius: 5px;
     margin: 20px;
     border-top: 1px solid lightblue;
-    background-color: #c0e7fd;
+    background-color: white;
 }
 
 .chat__input > form > input {
@@ -38,4 +38,22 @@
 
 .chat__inputButton {
     display: none;
+}
+
+.btns {
+    display: grid;
+    place-items: center;
+}
+
+.btns > button {
+    width: 500px;
+    background-color: rgb(238, 238, 113);
+    color: black;
+    font-weight: 770;
+    margin-top: 20px;
+}
+
+.btns > button:hover {
+    background-color: rgb(230, 98, 230);
+    color: white;
 }
