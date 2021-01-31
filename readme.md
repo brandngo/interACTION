@@ -11,6 +11,7 @@ interACTION is an online social platform where users can ANONYMOUSLY (if they ch
 
 
 # For a quick view of the deployed project, click [here](https://interactivess.web.app)!
+## Note: we did make a domain on Domain.com (it's called interaction-safe.space) but it's still pending and doesn't work yet, unfortunately!
 
 To view our presentation, click [here](https://docs.google.com/presentation/d/1vx8Hra_Yjj0-e3353ODy9cHGj9mOgD3iTxr1EXVP-gM/edit#slide=id.gb9b60f1225_0_55).
 
