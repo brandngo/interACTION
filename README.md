@@ -2,6 +2,8 @@
 
 ![alt text](https://cdn.discordapp.com/attachments/803798366462279711/805136887777067039/interAction_1.png)
 
+# Demo video that didn't show up in the submission: [click here[(https://drive.google.com/file/d/1k2E3uscR0Ut72Flr7EFsggrfopTrPBgY/view)
+
 As isolation and loneliness increase during the pandemic, people are left to communicate through social media and online methods. 53% of Americans reported that their mental health was negatively impacted by COVID-19 related issues, while Canadians are reporting their highest levels of anxiety (23%) and depression (15%) higher than during the first COVID-19 wave.
 
 Sometimes, all you need is a person to talk to and to listen to you without ever judging, because they don’t know you and are likely going through the same! 
