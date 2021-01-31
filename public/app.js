@@ -1,14 +1,20 @@
 mdc.ripple.MDCRipple.attachTo(document.querySelector('.mdc-button'));
 
 const configuration = {
-  iceServers: [
-    {
-      urls: [
-        'stun:stun1.l.google.com:19302',
-        'stun:stun2.l.google.com:19302',
-      ],
-    },
-  ],
+  iceServers: [{
+    urls: [ "stun:us-turn1.xirsys.com" ]
+  }, {
+    username: "NXWkF0TPus-tZ-GrZU2UtToYl3BnFJYa2w-hxsiD3JrnoE_7ZlGlT3DblVOjEy-TAAAAAGAV6g1icmFuZG5nbw==",
+    credential: "eda9b1b0-6351-11eb-8f7d-0242ac140004",
+    urls: [
+        "turn:us-turn1.xirsys.com:80?transport=udp",
+        "turn:us-turn1.xirsys.com:3478?transport=udp",
+        "turn:us-turn1.xirsys.com:80?transport=tcp",
+        "turn:us-turn1.xirsys.com:3478?transport=tcp",
+        "turns:us-turn1.xirsys.com:443?transport=tcp",
+        "turns:us-turn1.xirsys.com:5349?transport=tcp"
+    ]
+  }],
   iceCandidatePoolSize: 10,
 };
 
