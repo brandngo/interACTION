@@ -1,3 +1,19 @@
+# interACTION: an optimal solution to the rising levels of depression and mental illness as a result of COVID-19 induced social isolation and loneliness
+
+As isolation and loneliness increase during the pandemic, people are left to communicate through social media and online methods. 53% of Americans reported that their mental health was negatively impacted by COVID-19 related issues, while Canadians are reporting their highest levels of anxiety (23%) and depression (15%) higher than during the first COVID-19 wave.
+
+Sometimes, all you need is a person to talk to and to listen to you without ever judging, because they don’t know you and are likely going through the same! 
+## That’s where interACTION comes in as the best solution.
+
+interACTION is an online social platform where users can ANONYMOUSLY (if they choose to!) interact with a wholesome community of members experiencing the same feelings as they are. They can choose to chat in the channel that best matches their interests, or they can create their own! They can also access our informational multi-tab resource page for how to best feel better, and the best part: they can choose to video chat with anyone from our platform! Someone who can lend an ear will do wonders for one’s feelings of loneliness and depression.
+
+
+# For a quick view of the deployed project, click [here](https://interactivess.web.app)!
+
+To view our presentation, click [here](https://docs.google.com/presentation/d/1vx8Hra_Yjj0-e3353ODy9cHGj9mOgD3iTxr1EXVP-gM/edit#slide=id.gb9b60f1225_0_55).
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
