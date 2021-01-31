@@ -13,7 +13,7 @@
     color: black;
     font-weight: 770;
     margin-bottom: 189px;
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 .login > button:hover {
@@ -22,12 +22,22 @@
 }
 
 .login > div > img {
+    border-radius: 100%;
     object-fit: contain;
     height: 300px;
     margin-top: 60px;
+    box-shadow: 16px 16px 20px black;
+
+}
+
+.login > div > img:hover {
+    opacity: 0.8;
+    transform: scale(1.2);
 }
 
 .login > p {
     color: white;
     margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
 }

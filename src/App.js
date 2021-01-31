@@ -10,7 +10,7 @@ import { login, logout } from "./features/userSlice";
 
 function App() {
   const dispatch = useDispatch();
-  const user = useSelector(selectUser);
+  var user = useSelector(selectUser);
   useEffect(() => {
     auth.onAuthStateChanged((authUser) => {
       console.log("in   ", authUser);

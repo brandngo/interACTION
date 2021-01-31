@@ -41,6 +41,11 @@ function Chat() {
         setInput("");
     }
 
+    const openInNewTab = (url) => {
+        const newWindow = window.open(url, '_blank', 'noopener,noreferrer')
+        if (newWindow) newWindow.opener = null
+      }
+
     return (
         <div className="chat">
             <div className="welcome">
@@ -51,13 +56,13 @@ function Chat() {
                marginTop:"30px",
                 marginLeft: "auto",
                 marginRight:"auto",
-                width: "30%"}}/>
-                <p style={{color:"white", textAlign:"center", fontSize:"20px", marginTop:"20px", marginLeft:"20px", marginRight:"20px"}}>interACTION is a platform designed for those suffering from mental illnesses (or are simply stressed/upset!) to have a place to anonymously (only your first name is shown to the world!) release their emotional discomforts and have their troubles listened to via chatting or video chatting with others who empathize because they're experiencing the same.</p>
-                <p style={{color:"white", textAlign:"center", fontSize:"20px", marginTop:"20px", marginLeft:"10px", marginRight:"10px"}}>Enjoy your stay, or click on your avatar (bottom left) to log out! </p>
+                width: "20%"}}/>
+                <p style={{color:"white", textAlign:"center", fontSize:"20px", marginTop:"20px", marginLeft:"20px", marginRight:"20px"}}>interACTION is a platform designed for those suffering from mental illness or simply having a rough day to have a place to anonymously express what's on their mind and have their troubles listened to via chatting or video chatting by others who empathize because they're experiencing the same.</p>
+                <p style={{color:"white", textAlign:"center", fontSize:"20px", marginTop:"20px", marginLeft:"10px", marginRight:"10px"}}>Go anonymous with the eye icon, or click on your avatar (bottom left) to log out! Enjoy your stay!  </p>
                 <p style={{color:"white", textAlign:"center", fontSize:"20px", marginTop:"20px", marginLeft:"10px", marginRight:"10px"}}>XOXO, the development team (Joy, Brandon, Nemo, Mary-Emma) </p>
                 
                 <div className="btns">
-                <Button>Video Chat With Someone 🥺 👉👈</Button>
+                <Button onClick={()=> openInNewTab("https://interaction-e7a64.web.app/")}>Video Chat With Someone 🥺 👉👈</Button>
                 <Button onClick={(e) => {
                     e.preventDefault();
                     window.location.href="https://interAction.maryemmabarnhil.repl.co"}}>Resources!</Button>
